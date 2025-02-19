@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto 10px auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.summary {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    width: 50%;
+}
+
+.quote-container {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width:400px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav a.logo {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        gap: 8px;
+    }
+
+    nav li {
+        margin: 0 8px;
+    }
+
+    .profile-photo {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin: 20px auto 10px auto;
+        display: block;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .summary {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 18px;
+        width: 50%;
+    }
+    
+    .quote-container {
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 10px;
+        display: inline-block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-style: italic;
+        text-align: center;
+    }
+    
+    footer {
+        margin-top: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .social-icon {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+    }
+}
