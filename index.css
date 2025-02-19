@@ -68,6 +68,7 @@ h1 {
 
 .quote-container {
     background-color: #fff;
+    border-radius: 10px;
     margin: 20px auto;
     padding: 10px;
     display: inline-block;
@@ -152,10 +153,13 @@ footer {
     
     .quote-container {
         background-color: #fff;
-        margin: 20px auto;
+        border-radius: 10px;
+        margin: 10px auto;
         padding: 10px;
         display: inline-block;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 550px;
         font-style: italic;
         text-align: center;
     }

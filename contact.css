@@ -74,7 +74,8 @@ h1 {
     margin: 30px auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     color: #333;
 }
@@ -127,12 +128,12 @@ footer {
     nav a:hover {
         color: #007BFF;
     }
-    
+
     header {
         text-align: center;
         margin-top: 40px;
     }
-    
+
     header h1 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -145,17 +146,17 @@ footer {
         gap: 15px;
         margin-bottom: 30px;
     }
-    
+
     .contact-container {
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        width: 90%;
+        width: 83%;
         max-width: 550px;
         margin: 30px auto;
     }
-    
+
     footer {
         text-align: center;
         padding: 20px;
@@ -163,15 +164,15 @@ footer {
         background-color: transparent;
         margin-top: auto;
     }
-    
+
     .social-icon {
         margin: 0 10px;
         font-size: 24px;
         color: #333;
         transition: color 0.3s;
     }
-    
+
     .social-icon:hover {
         color: #007BFF;
     }
-  }
+}

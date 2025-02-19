@@ -117,9 +117,9 @@ footer {
 
 @media (max-width: 520px) {
     nav {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     nav a.logo {
@@ -149,12 +149,12 @@ footer {
         text-align: center;
         margin-top: 40px;
     }
-    
+
     header h1 {
         font-size: 36px;
         margin-bottom: 20px;
     }
-    
+
     .resume-container {
         background-color: #fff;
         padding: 20px;
@@ -162,22 +162,22 @@ footer {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
     }
-    
+
     h2 {
         margin-bottom: 10px;
         color: #333;
     }
-    
+
     .skill-bar p {
-        margin: 5px 0;
+        margin: 5px 5px;
     }
-    
+
     .bar {
         background-color: #e0e0e0;
         border-radius: 5px;
         overflow: hidden;
     }
-    
+
     .bar-fill {
         height: 20px;
         line-height: 20px;
@@ -186,7 +186,7 @@ footer {
         text-align: right;
         padding-right: 10px;
     }
-    
+
     footer {
         text-align: center;
         padding: 20px;
@@ -194,16 +194,15 @@ footer {
         background-color: transparent;
         margin-top: auto;
     }
-    
+
     .social-icon {
         margin: 0 10px;
         font-size: 24px;
         color: #333;
         transition: color 0.3s;
     }
-    
+
     .social-icon:hover {
         color: #007BFF;
     }
-  }
-  
+}

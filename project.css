@@ -65,8 +65,8 @@ h1 {
     padding: 40px;
     min-height: 60vh;
     margin: 0 auto;
-  }
-  
+}
+
 .project-card {
     background-color: #fff;
     width: 60%;
@@ -155,7 +155,7 @@ footer {
         text-align: center;
         margin-top: 40px;
     }
-    
+
     header h1 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -165,13 +165,14 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         text-align: center;
         padding: 40px;
         min-height: 20vh;
         margin: 0 auto;
-      }
-      .project-card {
+    }
+
+    .project-card {
         background-color: #fff;
         width: 60%;
         margin-bottom: 20px;
@@ -181,17 +182,17 @@ footer {
         transition: transform 0.3s;
         text-align: center;
     }
-    
+
     .project-card:hover {
         transform: translateY(-5px);
     }
-    
+
     .project-card img {
         width: 100%;
         border-radius: 5px;
         margin-bottom: 15px;
     }
-    
+
     .btn {
         display: inline-block;
         padding: 10px 20px;
@@ -201,11 +202,11 @@ footer {
         border-radius: 5px;
         transition: background-color 0.3s;
     }
-    
+
     .btn:hover {
         background-color: #555;
     }
-    
+
     footer {
         text-align: center;
         padding: 20px;
@@ -213,17 +214,16 @@ footer {
         background-color: transparent;
         margin-top: auto;
     }
-    
+
     .social-icon {
         margin: 0 10px;
         font-size: 24px;
         color: #333;
         transition: color 0.3s;
     }
-    
+
     .social-icon:hover {
         color: #007BFF;
     }
-      
+
 }
- 
