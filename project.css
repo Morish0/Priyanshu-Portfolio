@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     display: flex;
@@ -51,7 +51,7 @@ header {
     margin-top: 40px;
 }
 
-header h1 {
+h1 {
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -60,10 +60,10 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center vertically */
+    justify-content: center;
     text-align: center;
     padding: 40px;
-    min-height: 60vh; /* Adjust based on your design */
+    min-height: 60vh;
     margin: 0 auto;
   }
   
@@ -147,14 +147,28 @@ footer {
         margin: 0 8px;
     }
 
+    nav a:hover {
+        color: #007BFF;
+    }
+
+    header {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
     .project-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* Center vertically */
+        justify-content: center; 
         text-align: center;
         padding: 40px;
-        min-height: 60vh; /* Adjust based on your design */
+        min-height: 20vh;
         margin: 0 auto;
       }
       .project-card {
@@ -174,7 +188,7 @@ footer {
     
     .project-card img {
         width: 100%;
-        border-radius: 10px;
+        border-radius: 5px;
         margin-bottom: 15px;
     }
     

@@ -77,16 +77,22 @@ h1 {
 }
 
 footer {
-    margin-top: auto;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    color: #333;
+    background-color: transparent;
+    margin-top: auto;
 }
 
 .social-icon {
     margin: 0 10px;
     font-size: 24px;
     color: #333;
-    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007BFF;
 }
 
 @media (max-width:520px) {
@@ -115,6 +121,10 @@ footer {
         margin: 0 8px;
     }
 
+    nav a:hover {
+        color: #007BFF;
+    }
+
     .profile-photo {
         border-radius: 50%;
         width: 150px;
@@ -123,9 +133,14 @@ footer {
         display: block;
     }
     
-    h1 {
+    header {
         text-align: center;
-        margin: 10px 0;
+        margin-top: 40px;
+    }
+    
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
     }
     
     .summary {
@@ -146,9 +161,11 @@ footer {
     }
     
     footer {
-        margin-top: auto;
-        padding: 20px;
         text-align: center;
+        padding: 20px;
+        color: #333;
+        background-color: transparent;
+        margin-top: auto;
     }
     
     .social-icon {
@@ -157,4 +174,9 @@ footer {
         color: #333;
         text-decoration: none;
     }
+
+    .social-icon:hover {
+        color: #007BFF;
+    }    
+
 }

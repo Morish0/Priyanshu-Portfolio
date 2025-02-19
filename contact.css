@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,23 +29,31 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    font-size: 16px;
+    font-size: 18px;
     transition: color 0.3s;
 }
 
 nav a:hover {
     color: #007BFF;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .contact {
@@ -73,14 +81,15 @@ h1, h2 {
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     color: #333;
+    background-color: transparent;
     margin-top: auto;
 }
 
 .social-icon {
-    margin: 0 8px;
-    font-size: 22px;
+    margin: 0 10px;
+    font-size: 24px;
     color: #333;
     transition: color 0.3s;
 }
@@ -115,14 +124,20 @@ footer {
         margin: 0 8px;
     }
 
-    header h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
     nav a:hover {
         color: #007BFF;
     }
     
+    header {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
     .contact {
         padding: 30px;
         display: flex;
@@ -141,21 +156,17 @@ footer {
         margin: 30px auto;
     }
     
-    h1, h2 {
-        text-align: center;
-        color: #333;
-    }
-    
     footer {
         text-align: center;
-        padding: 15px;
+        padding: 20px;
         color: #333;
+        background-color: transparent;
         margin-top: auto;
     }
     
     .social-icon {
-        margin: 0 8px;
-        font-size: 22px;
+        margin: 0 10px;
+        font-size: 24px;
         color: #333;
         transition: color 0.3s;
     }
