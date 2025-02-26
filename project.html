@@ -28,9 +28,14 @@
         <div class="project-card">
             <img src="Portfolio.png" alt="Portfolio Website" />
             <h2>Portfolio Website</h2>
-            <p>A personal portfolio created with HTML, CSS, and JavaScript to showcase my skills, projects, and resume.
-            </p>
-            <a href="#" class="btn">View Project</a>
+            <p>A personal portfolio created with HTML, CSS, and JavaScript to showcase my skills, projects, and resume.</p>
+            <div class="dropdown">
+                <button class="btn" onclick="toggleDropdown()">View Project</button>
+                <div class="dropdown-content" id="dropdown-menu">
+                    <a href="https://github.com/Morish0/priyanshu-portfolio" target="_blank">GitHub Code</a>
+                    <a href="https://morish0.github.io/priyanshu-portfolio/" target="_blank">Live Project</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -43,6 +48,7 @@
         <a href="mailto:priyanshuc660@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
         <p>© February 2025 Priyanshu Chaudhary</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
